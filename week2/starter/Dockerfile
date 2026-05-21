@@ -3,7 +3,7 @@
 # Stage 2: Runtime (copy only what's needed, smaller final image)
 # Why? Faster deployments, smaller disk usage in container registry
 
-FROM python:3.11-slim as builder
+FROM python:3.11-slim AS builder
 WORKDIR /app
 COPY week2/backend/requirements.txt .
 

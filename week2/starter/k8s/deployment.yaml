@@ -56,7 +56,7 @@ spec:
 
       containers:
       - name: demand-api
-        image: us-central1-docker.pkg.dev/ethandominic/docker-repo/demand-api:latest
+        image: us-central1-docker.pkg.dev/ops-ai-ethandominic/docker-repo/demand-api:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
