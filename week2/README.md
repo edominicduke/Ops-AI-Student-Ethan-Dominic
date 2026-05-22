@@ -585,3 +585,5 @@ git commit -m "Remove key.json from tracking"
 # Due
 
 End of Week 2 (see syllabus)
+
+**Note:* Assignment Completed
